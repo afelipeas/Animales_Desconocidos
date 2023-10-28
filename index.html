@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animales Desconocidos</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <meta name="Animales que no conocías antes" content="Esta es la pagina web que cree con HTML">
+</head>
+
+<body>
+    <div class="navegacion">
+        <nav class="barra">
+            <a href="#descripcion"> <p>Descripción</p> </a> 
+            <a href="#fotos"> <p>Fotos</p> </a>
+            <a href="#menu"> <p>Lista de Animales Desconocidos</p> </a>
+            <a href="#info"> <p>Información Personal</p> </a>
+        </nav>
+    </div>
+    <div>
+    <header>
+        <h1 class="pagetitle">Animales que no conocías antes</h1>
+    </header>
+    </div>
+    <section id="descripcion">
+        <h2>Descripción de mi sitio</h2>
+        <p class="description">A diferencia de otros animales ya documentados, estos animales son extremadamente raros y apenas son percibidos por el ser humano, algunos incluso piensan que son animales no reales y son creados a base de animación, pero en esta página web dedicada a la parte desconocida de la naturaleza, nos encargamos de mostrar y documentar animales nunca antes vistos por el hombre y que son muy asombrosos cuando uno los conoce mejor.</p>
+    </section>
+    <section id="fotos">
+        <article>
+            <p>En esta sección tenemos diferentes opciones que podemos escoger, cada una de ellas te llevara a descubrir especies sorprendentes ¡Anímate y dale click!</p>
+            <!-- <aside class="gallery">
+                <a title="insecto palo" href="https://www.youtube.com/watch?v=bajK9j03wDA" target="_blank" rel="noreferrer" > <img src="https://www.mnhn.gob.cl/sites/www.mnhn.gob.cl/files/styles/16x9_grande/public/2021-04/2017%20Nota%2003B%20Figura%201%20Proscopiidae%20by%20Andrea%20Ugarte%202may2010.jpg?h=51d33309&itok=mnrqnduT" alt="insecto palo" > </img> </a>
+                <a title="aguti" href="https://www.youtube.com/shorts/39C8wF0VTIY" target="_blank" rel="noreferrer"> <img src="https://imagenes.muyinteresante.es/files/vertical_composte_image/uploads/2022/10/12/6346a4c37e302.jpeg"  alt="aguti"> </img> </a>
+                <a title="casuario" href="https://www.youtube.com/shorts/QjUUeGM4gkg" target="_blank" rel="noreferrer"> <img src="https://www.biologueando.com/wp-content/uploads/2020/11/Causario-cassowary-Finy.jpg" alt="casuario"> </img> </a>
+                <a title="pez volador" href="https://www.youtube.com/shorts/2EmPZ-JF-z8" target="_blank" rel="noreferrer"> <img src="https://www.bunko.pet/__export/1619552671353/sites/debate/img/2021/04/27/pez_volador_crop1619550034507.jpg_554688468.jpg" alt="pez volador"> </img> </a>
+            </aside> -->
+        </article>
+
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a title="insecto palo" href="https://www.youtube.com/watch?v=bajK9j03wDA" target="_blank" rel="noreferrer" > <img src="https://www.mnhn.gob.cl/sites/www.mnhn.gob.cl/files/styles/16x9_grande/public/2021-04/2017%20Nota%2003B%20Figura%201%20Proscopiidae%20by%20Andrea%20Ugarte%202may2010.jpg?h=51d33309&itok=mnrqnduT" class="d-block w-100" alt="insecto palo"> </img> </a>
+            </div>
+            <div class="carousel-item">
+              <a title="aguti" href="https://www.youtube.com/shorts/39C8wF0VTIY" target="_blank" rel="noreferrer"> <img src="https://imagenes.muyinteresante.es/files/vertical_composte_image/uploads/2022/10/12/6346a4c37e302.jpeg"  class="d-block w-100" alt="aguti"> </img> </a>
+            </div>
+            <div class="carousel-item">
+              <a title="casuario" href="https://www.youtube.com/shorts/QjUUeGM4gkg" target="_blank" rel="noreferrer"> <img src="https://www.areacostadelsol.com/wp-content/uploads/2021/10/casuario.jpg" class="d-block w-100" alt="casuario"> </img> </a>
+            </div>
+            <div class="carousel-item">
+              <a title="pez volador" href="https://www.youtube.com/shorts/2EmPZ-JF-z8" target="_blank" rel="noreferrer"> <img src="https://www.bunko.pet/__export/1619552671353/sites/debate/img/2021/04/27/pez_volador_crop1619550034507.jpg_554688468.jpg" class="d-block w-100" alt="pez volador"> </img> </a>
+            </div>
+            <div class="carousel-item">
+              <a title="Tardigrado" href="https://www.youtube.com/watch?v=DWLl2F5ycTc" target="_blank" rel="noreferrer"> <img src="https://www.ngenespanol.com/wp-content/uploads/2022/09/Cienti%CC%81ficos-revelan-el-secreto-que-hace-inmortal-a-los-tadi%CC%81grados-1024x576.jpg" class="d-block w-100" alt="pez volador"> </img> </a>
+            </div>            
+          </div>
+          <button class="carousel-control-prev" type="button"  data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>        
+
+    <ul id="menu"> Diferentes Especies Animales Desconocidas
+        <li class="item"><a href="https://www.youtube.com/playlist?list=PLSpgcjZTuDM7G9GPAiyxuLTP6ik6rv5eF" target="_blank" rel="noreferrer" alt="Insectos desconocidas">Insectos desconocidos</a></li>
+        <li class="item"><a href="https://www.youtube.com/watch?v=O7kCYzsni44&list=PLkEfwxc4tvLcuXsdjw0DnQseDVg2DqPkg&index=3" target="_blank" rel="noreferrer" alt="Aves desconocidas">Aves desconocidas</a></li>
+        <li class="item"><a href="https://www.youtube.com/watch?v=mUQpqVmUUE4&pp=ygUScGVjZXMgZGVzY29ub2NpZG9z" target="_blank" rel="noreferrer" alt="Peces desconocidos">Peces desconocidos</a></li>
+        <li class="item"><a href="https://www.youtube.com/watch?v=6U6sUrt3y8A&pp=ygUWbWFtaWZlcm9zIGRlc2Nvbm9jaWRvcw%3D%3D" target="_blank" rel="noreferrer" alt="Mamíferos desconocidos">Mamíferos desconocidos</a></li>
+        <li class="item"><a href="https://www.youtube.com/watch?v=VK4avBMp0es" target="_blank" rel="noreferrer" alt="Microanimales desconocidos">Microanimales desconocidos</a></li>
+    </ul>
+    </section>
+
+<section class="tabla">
+<div >
+    <h3>Tabla de Animales Desconocidos</h3>
+    <table >
+        <thead>
+            <tr>
+            <th>Nombre</th>
+            <th>Clase de animal</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Agutí</td>
+                <td>Mamifero</td>
+            </tr>
+            <tr>
+                <td>Insecto Palo</td>
+                <td>Insecto</td>
+            </tr>
+            <tr>
+                <td>Casuario</td>
+                <td>Ave</td>
+            </tr>
+            <tr>
+                <td>Pez Volador</td>
+                <td>Pez</td>
+            </tr>   
+            <tr>
+              <td>Tardigrado</td>
+              <td>Microanimal</td>
+          </tr>                      
+        </tbody>
+
+    </table>
+    <div class="button"><a href="https://www.youtube.com/@Biologia2.0/featured" target="_blank" rel="noreferrer" ><button>Haz Click Para ver más</button></a></div>
+</div>
+
+</section>
+    
+    <footer id="info">
+        <h4>Información Personal</h4>
+        <div>Nombre: Andrés Felipe Alvarez Sandoval</div>
+        <div>Contacto: 3144850737</div>
+        <div>Email: afelipeas2@gmail.com</div>
+        <div>Institución: Skolmi</div>
+        <img src="img/foto footer.png" width="130" height="120" ></img>
+    </footer>
+</body>
+</html>

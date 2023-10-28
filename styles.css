@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+  }
+
+  header{
+    text-transform: uppercase;
+    padding: 32px;
+    background-color: #2bed25;
+    border: 4px solid #006eff;
+  }
+
+  h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 21, 255);
+    text-align: center;
+  }
+
+  .description {
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: justify;
+  }
+
+  .pagetitle {
+    /*aplicamos position*/
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      color: rgb(5, 102, 23);
+      position: relative;
+  }
+
+  section#descripcion{
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 5px;
+  }
+
+  p {
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: justify;
+  }
+
+  article > p{
+    /*aplicamos modelo de caja*/
+    padding: 20px;
+    margin: 20px; 
+    border: 10px solid red;
+    /*width: 400px;*/
+    /*height: 800px;*/
+    background: goldenrod;
+    display: inline-block;
+  }
+
+  body {
+    background: linear-gradient(45deg, rgb(118, 201, 255), rgb(247, 255, 222));
+  }
+
+  ul li[class="item"]:hover {
+    background-color: #2bed25;
+    width: 400px;
+  }
+
+  ul {
+    /*aplicamos modelo de caja*/
+    margin-left: auto;
+    margin-right: auto;
+    list-style-position: inside;
+    list-style-type: square;
+  }
+
+  ul#menu {
+    /*aplicamos modelo de caja*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size:large;
+    text-align: center;
+    border: 2px solid;
+    max-width: 500px;
+    margin-top: 300px;
+  }
+
+    .gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 10px;
+  }
+
+  .gallery img {
+    width: 100%;
+    max-width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+  }
+
+  h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(232, 18, 164);
+    text-align: center;
+  }
+
+  table {
+    /*aplicamos modelo de caja*/
+    border-collapse: collapse;
+    border: 2px solid;
+    width: 100%;
+    position: relative;
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  .tabla {
+    display:flex;
+    justify-content: center;
+  }
+
+  .barra {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+    background: yellow;
+    height: 30px;
+    width: 100%;
+    padding: 2px;
+  }
+
+  .navegacion {
+  height: 30px;
+  width: 100%;
+  /* justify-content: center; */
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  td {
+    border: 2px solid;
+  }
+
+  th {
+    border: 2px solid;
+  }
+
+  button{
+    background: rgb(255, 255, 255);
+    color: rgb(3, 3, 3);
+    padding: 10px;
+    box-shadow: 5px 5px 5px black;
+    transition: padding 0.5s ease;
+    }
+
+  button:hover{
+      background: rgb(255, 0, 0);
+      padding: 20px;
+  }
+
+  button:active {
+    background: #ffffff;
+  }
+
+  .button {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+
+
+
+
+
+
+
+  button.carousel-control-prev, .carousel-control-next:hover{
+    background: transparent;
+    height: 30px;
+    width: 30px;
+  }
+  
+  .carousel, .carousel-inner > .item > img {
+ 
+    height: 30px;
+  max-width: 400px;
+  }
+
+  #carouselExample{
+    margin-right: auto;
+    margin-left: auto;
+     }
+
+
+
+
+
+
+
+
+
